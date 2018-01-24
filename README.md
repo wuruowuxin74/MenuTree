@@ -6,7 +6,7 @@
 # 使用方法
     在文章某处地方加上<!-- index-menu -->，程序会把这个注释替换成目录树
 # 样式
-    >.index-menu         整个目录
-    >.index-menu-list    列表 ul
-    >.index-menu-item    每个目录项 li
-    >.index-menu-link    目录项连接 a
+    > .index-menu         整个目录
+    > .index-menu-list    列表 ul
+    > .index-menu-item    每个目录项 li
+    > .index-menu-link    目录项连接 a
