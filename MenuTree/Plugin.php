@@ -148,7 +148,7 @@ class MenuTree_Plugin implements Typecho_Plugin_Interface {
 			}
 		}
 		self::$id++;
-		return "<span id=\"{$menu['id']}\" name=\"{$menu['id']}\"></span>" . $html;
+		return "<span class=\"menu-target-fix\" id=\"{$menu['id']}\" name=\"{$menu['id']}\"></span>" . $html;
 	}
 	/**
      * 构建目录树，生成索引
